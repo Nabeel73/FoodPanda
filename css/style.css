@@ -1,85 +1,84 @@
-body {
-    margin: 0px auto;
-    overflow-x: hidden;
-    height: 1000px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.container-fuild {
-    background-color: white;
-    position: fixed;
-    box-shadow: 1px 1px 1px #333333;
-    width: 100%;
-}
-
-#fusion-bar {
-    display: inline;
-}
-
-.header {
-    background-color: darkred;
-    salmon;
-    background-image: url("/images/food.jpg");
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 100px;
-}
-
-h1 {
-    padding-top: 80px;
-    padding-left: 100px;
-    padding-bottom: 50px;
-    color: white;
-}
-
-
-/*
+            body {
+                margin: 0px auto;
+                overflow-x: hidden;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            
+            .container-fuild {
+                background-color: white;
+                position: fixed;
+                box-shadow: 1px 1px 1px #333333;
+                width: 100%;
+            }
+            
+            #fusion-bar {
+                display: inline;
+            }
+            
+            .header {
+                background-color: darkred;
+                /*   background-image: url("../images/food.jpg");*/
+                padding-top: 100px;
+                padding-left: 100px;
+                padding-bottom: 100px;
+            }
+            
+            h1 {
+                padding-top: 80px;
+                padding-left: 100px;
+                padding-bottom: 50px;
+                color: white;
+            }
+            /*
 #fusion-form {
     padding-left: 55px;
 }
 */
-
-form {
-    box-shadow: 0 15px 28px 0 rgba(0, 0, 0, .12);
-    padding-left: 10px;
-    background-color: white;
-    width: 100%;
-}
-
-input[type=text] {
-    width: 400px;
-    padding: 10px 00px 15px 15px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid black;
-    background-color: white;
-    color: darkred;
-}
-
-.btn {
-    width: 180px;
-    height: 50px;
-    color: black;
-    background-color: red!important;
-    color: white!important;
-    cursor: pointer;
-    outline: none;
-    border: 1px solid;
-    border-color: #d70f64;
-    padding-left: 10px;
-    letter-spacing: 2px;
-}
-
-
-/*SECTION CSS START*/
-
-section {
-    background-color: bisque;
-}
-
-h2 {
-    padding-left: 40px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    color: darkred;
-}
+            
+            form {
+                box-shadow: 0 15px 28px 0 rgba(0, 0, 0, .12);
+                padding-left: 10px;
+                background-color: white;
+                width: 100%;
+            }
+            
+            input[type=text] {
+                width: 400px;
+                padding: 10px 00px 15px 15px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 1px solid black;
+                background-color: white;
+                color: darkred;
+            }
+            
+            .btn {
+                width: 180px;
+                height: 50px;
+                color: black;
+                background-color: red!important;
+                color: white!important;
+                cursor: pointer;
+                outline: none;
+                border: 1px solid;
+                border-color: #d70f64;
+                padding-left: 10px;
+                letter-spacing: 2px;
+            }
+            /*SECTION CSS START*/
+            
+            section {
+                background-color: bisque;
+                position: absolute;
+            }
+            
+            h2 {
+                padding-left: 40px;
+                padding-top: 50px;
+                padding-bottom: 30px;
+                color: darkred;
+            }
+            
+            .city-list {
+                display: inline-flex;
+            }
