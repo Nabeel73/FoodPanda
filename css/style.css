@@ -1,10 +1,11 @@
 body {
     margin: 0px auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
     height: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container {
+.container-fuild {
     background-color: white;
     position: fixed;
     box-shadow: 1px 1px 1px #333333;
@@ -16,7 +17,8 @@ body {
 }
 
 .header {
-    background-color: salmon;
+    background-color: darkred;
+    salmon;
     background-image: url("/images/food.jpg");
     padding-top: 100px;
     padding-left: 100px;
@@ -25,9 +27,9 @@ body {
 
 h1 {
     padding-top: 80px;
-    padding-left: 1px;
+    padding-left: 100px;
     padding-bottom: 50px;
-    color: black;
+    color: white;
 }
 
 
@@ -40,31 +42,32 @@ h1 {
 form {
     box-shadow: 0 15px 28px 0 rgba(0, 0, 0, .12);
     padding-left: 10px;
-    width: 630px;
     background-color: white;
+    width: 100%;
 }
 
 input[type=text] {
     width: 400px;
-    padding: 10px 30px 15px 15px;
+    padding: 10px 00px 15px 15px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid black;
     background-color: white;
-    color: white;
+    color: darkred;
 }
 
-button {
-    background-color: red;
-    color: white;
+.btn {
+    width: 180px;
+    height: 50px;
+    color: black;
+    background-color: red!important;
+    color: white!important;
     cursor: pointer;
-    padding: 0px 10px 10px 10px;
     outline: none;
     border: 1px solid;
-    border-radius: unset;
     border-color: #d70f64;
-    font-size: 1.4rem;
-    letter-spacing: 0.1rem;
+    padding-left: 10px;
+    letter-spacing: 2px;
 }
 
 
@@ -72,4 +75,11 @@ button {
 
 section {
     background-color: bisque;
+}
+
+h2 {
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: darkred;
 }
