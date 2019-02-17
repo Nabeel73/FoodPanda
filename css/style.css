@@ -78,9 +78,10 @@
                 padding-bottom: 03px;
                 color: darkred;
             }
-            /* City Css*/
+            /* City Css
             
             .city-images-container {}
+            */
             
             .city-list {
                 list-style: none;
@@ -89,5 +90,46 @@
             
             .city-list li {
                 display: inline-flex;
-                padding: 10px 00px 05px 28px;
+                padding: 10px 00px 15px 28px;
+            }
+            /*Fusion bottom*/
+            
+            .fusion-container {
+                background-color: white;
+            }
+            
+            .fusion-header {
+                background-color: white;
+                display: inline-flex;
+            }
+            
+            .fusion-bottom h2 {
+                padding-left: 70px;
+                padding-top: 30px;
+                font-size: 24px;
+            }
+            
+            .popular-food {
+                font-size: 18px;
+                color: darkred;
+                margin-left: 50px;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            li a {
+                color: #d70f64;
+            }
+            /*Footer Css*/
+            
+            .footer-container {
+                background-color: darkred;
+                color: white;
+            }
+            
+            .footer-wapper {
+                padding-top: 50px;
+                padding-left: 20px;
             }
