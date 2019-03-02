@@ -1,135 +1,175 @@
-            body {
-                margin: 0px auto;
-                overflow-x: hidden;
-                font-family: 'Trebuchet MS', ;
-            }
-            
-            .container-fuild {
-                background-color: white;
-                position: fixed;
-                box-shadow: 1px 1px 1px #333333;
-                width: 100%;
-            }
-            
-            #fusion-bar {
-                display: inline;
-            }
-            
-            .header {
-                background-color: darkred;
-                /*   background-image: url("../images/food.jpg");*/
-                padding-top: 100px;
-                padding-left: 100px;
-                padding-bottom: 100px;
-            }
-            
-            h1 {
-                padding-top: 80px;
-                padding-left: 100px;
-                padding-bottom: 50px;
-                color: white;
-            }
-            /*
-#fusion-form {
-    padding-left: 55px;
+/*CSS*/
+
+body {
+    margin: 0px auto;
+    padding: 0px auto;
+    background-color: whitesmoke;
 }
-*/
-            
-            form {
-                box-shadow: 0 15px 28px 0 rgba(0, 0, 0, .12);
-                padding-left: 10px;
-                background-color: white;
-                width: 100%;
-            }
-            
-            input[type=text] {
-                width: 400px;
-                padding: 10px 00px 15px 15px;
-                margin: 8px 0;
-                box-sizing: border-box;
-                border: 1px solid black;
-                background-color: white;
-                color: darkred;
-            }
-            
-            .btn {
-                width: 180px;
-                height: 50px;
-                color: black;
-                background-color: red!important;
-                color: white!important;
-                cursor: pointer;
-                outline: none;
-                border: 1px solid;
-                border-color: #d70f64;
-                padding-left: 10px;
-                letter-spacing: 2px;
-            }
-            /*SECTION CSS START*/
-            
-            section {
-                background-color: bisque;
-                position: absolute;
-            }
-            
-            h2 {
-                padding-left: 70px;
-                padding-top: 50px;
-                padding-bottom: 03px;
-                color: darkred;
-            }
-            /* City Css
-            
-            .city-images-container {}
-            */
-            
-            .city-list {
-                list-style: none;
-                overflow-x: scroll;
-            }
-            
-            .city-list li {
-                display: inline-flex;
-                padding: 10px 00px 15px 28px;
-            }
-            /*Fusion bottom*/
-            
-            .fusion-container {
-                background-color: white;
-            }
-            
-            .fusion-header {
-                background-color: white;
-                display: inline-flex;
-            }
-            
-            .fusion-bottom h2 {
-                padding-left: 70px;
-                padding-top: 30px;
-                font-size: 24px;
-            }
-            
-            .popular-food {
-                font-size: 18px;
-                color: darkred;
-                margin-left: 50px;
-            }
-            
-            ul {
-                list-style: none;
-            }
-            
-            li a {
-                color: #d70f64;
-            }
-            /*Footer Css*/
-            
-            .footer-container {
-                background-color: darkred;
-                color: white;
-            }
-            
-            .footer-wapper {
-                padding-top: 50px;
-                padding-left: 20px;
-            }
+
+header {
+    background-color: aliceblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 4px 4px 4px #aaaaaa;
+}
+
+.login-text {
+    border: 1px saddlebrown;
+}
+
+.homebg {
+    position: relative;
+    background-image: url('../images/food.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-wapper {
+    background-color: white;
+}
+
+form {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 10px;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: red;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: darkred;
+    color: #fff;
+}
+
+
+}
+.city-heading {
+    margin-top: 20px;
+    color: black;
+}
+.city-images {
+    background-color: whitesmoke;
+    padding-bottom: 150px;
+}
+.city-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px 3px 3px 3px;
+}
+.city-list li img {
+    width: 250px;
+    height: 250px;
+}
+
+/*third Section */
+.third-content {
+    background-image: url('../images/third.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fusion-cover {
+    /* background-image: url('../images/third.JPG')*/
+    
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: darkred;
+    color: white;
+}
+.fusion-cover h2 {
+    padding: 100px 80px 100px 50px;
+}
+span img {
+    width: 400px;
+    height: 80px;
+}
+.office h1 {
+    font-size: 120px;
+    opacity: 0.5;
+}
+.burger {
+    background-image: url('../images/hurry.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: auto;
+    height: 500px;
+    background-size: 100% 80%;
+    position: relative;
+    //background-color: yellow;
+}
+.business {
+    background-color: white;
+    position: absolute;
+    margin: 260px 00px 0px 50px;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+.btn1 {
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    height: 50px;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+.btn1:hover {
+    background-color: red;
+    color: #fff;
+}
+.fifth-content {
+    margin-bottom: 50px;
+}
+.btn3 {
+    background-color: #D5D5D5;
+    color: black;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    border: none;
+}
+.btn3:hover {
+    background-color: darkred;
+    color: white;
+}
+.sixth-content {
+    background-color: #fff;
+}
+.text-content {
+    text-align: center;
+}
+.context-form {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.btn4 {
+    background-color: darkred;
+    color: white;
+    border: none;
+    width: 75%;
+    padding: none;
+    margin: none;
+    letter-spacing: 5px;
+    height: 50px;
+}
+.btn4:hover {
+    background-color: red;
+}
