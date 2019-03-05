@@ -1,111 +1,112 @@
 /*CSS*/
-
-body {
+body{
     margin: 0px auto;
-    padding: 0px auto;
-    background-color: whitesmoke;
-}
+  padding: 0px auto;
 
-header {
+}
+header{
     background-color: aliceblue;
-    position: fixed;
+        position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     z-index: 9999;
-    box-shadow: 4px 4px 4px #aaaaaa;
+  
+    box-shadow: 1px 2px 1px 1px #888888;
 }
-
-.login-text {
+.login-text{
     border: 1px saddlebrown;
 }
-
-.homebg {
-    position: relative;
+.homebg{
+   position: relative;
     background-image: url('../images/food.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .custom-wapper{
+    background-color:white;
 
-.custom-wapper {
-    background-color: white;
+  }
+form{
+ 
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding-left:10px;
+ 
+ 
+    
+ 
 }
-
-form {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    padding-left: 10px;
-}
-
 input[type=text] {
     width: 70%;
     padding: 8px 8px;
     margin: 8px 0;
     box-sizing: border-box;
+  }
+  .btn{
+      background-color: red;
+      color: #fff;
+      padding-left: 10px;
+  }
+.city-heading{
+    
+   padding: 15px ;
+       color:black;
 }
-
-.btn {
-    background-color: red;
-    color: #fff;
+.city-images{
+  //  background-color:whitesmoke;
+  padding-bottom: 150px;
 }
-
-.btn:hover {
-    background-color: darkred;
-    color: #fff;
-}
-
-
-}
-.city-heading {
-    margin-top: 20px;
-    color: black;
-}
-.city-images {
-    background-color: whitesmoke;
-    padding-bottom: 150px;
-}
-.city-list li {
+.city-list li{
     list-style: none;
     display: inline-block;
     padding: 7px 3px 3px 3px;
+
+
 }
-.city-list li img {
+.city-list li img{
     width: 250px;
     height: 250px;
-}
 
+}
 /*third Section */
-.third-content {
-    background-image: url('../images/third.JPG');
+.third-content{
+  
+//background-image: url('../images/third.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 80px;
-}
-.heading {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.fusion-cover {
-    /* background-image: url('../images/third.JPG')*/
+    margin-bottom:80px;
+ 
+ 
     
-    ;
+}
+.heading{
+    padding:15px 0px 10px 50px ;
+}
+.fusion-cover{
+background-image: url('../images/third.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    // background-color: darkred;
-    color: white;
+ // background-color:darkred;
+   color:white;
+  }
+.fusion-cover h2{
+    
+    padding: 100px 80px 100px 50px ;
+ 
 }
-.fusion-cover h2 {
-    padding: 100px 80px 100px 50px;
-}
-span img {
+span img{
     width: 400px;
     height: 80px;
+    
+   
+   
 }
-.office h1 {
+.office h1{
     font-size: 120px;
     opacity: 0.5;
 }
-.burger {
+.burger{
     background-image: url('../images/hurry.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -114,62 +115,83 @@ span img {
     background-size: 100% 80%;
     position: relative;
     //background-color: yellow;
+    
 }
-.business {
-    background-color: white;
+.business{
+    background-color: lightyellow;
     position: absolute;
     margin: 260px 00px 0px 50px;
     padding: 15px 15px 15px 15px;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
 }
-.btn1 {
+.btn1{
     width: 100%;
     background-color: darkred;
-    color: white;
+    color:white;
     height: 50px;
     letter-spacing: 4px;
     font-size: 25px;
-}
-.btn1:hover {
-    background-color: red;
-    color: #fff;
-}
-.fifth-content {
-    margin-bottom: 50px;
-}
-.btn3 {
-    background-color: #D5D5D5;
-    color: black;
-    width: 100%;
-    height: 50px;
-    text-align: left;
-    border: none;
-}
-.btn3:hover {
-    background-color: darkred;
-    color: white;
-}
-.sixth-content {
-    background-color: #fff;
-}
-.text-content {
-    text-align: center;
-}
-.context-form {
-    display: inline-flex;
-    width: 100%;
-    padding-bottom: 100px;
-}
-.btn4 {
-    background-color: darkred;
-    color: white;
-    border: none;
-    width: 75%;
-    padding: none;
-    margin: none;
-    letter-spacing: 5px;
-    height: 50px;
-}
-.btn4:hover {
-    background-color: red;
-}
+    }
+    .fifth-content{
+        margin-bottom: 50px;
+    }
+    .btn3{
+        background-color:#D5D5D5;
+        color:black;
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        border: none;
+        padding-left: 20px;
+
+    }
+    .btn3:hover{
+        background-color:darkred;
+        color:white;
+    }
+    
+
+    .sixth-content{
+        background-color: #fff;
+    }
+    .text-content{
+        text-align:center;
+    }
+    .context-form{
+        display: inline-flex;
+     width: 100%;
+     padding-bottom: 100px;
+    
+    }
+    .btn4
+    {
+        background-color:darkred;
+        color:white;
+        width: 100%;
+        height: 50px;
+    
+        border: none;
+    }
+    .fusion h5{
+       padding: 5px;
+    }
+    .foods{
+        list-style: none;
+        color:red;
+        padding-bottom: 10px;
+    }
+    .citi-name {
+        color: black;
+    }
+    .footer{
+        background-color: aquamarine;
+    }
+    #footer-right{
+        text-align:justify;
+    
+        color:darkred;
+
+   }
+      
+
+    
